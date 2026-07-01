@@ -1,3 +1,5 @@
+package jogos;
+
 import javax.swing.*; //Importa componentes swing
 import java.awt.*; //Criar GUIs e renderizar
 import java.awt.event.*; //Interatividade do usuário
@@ -47,7 +49,7 @@ public class QuebraCabeca extends JFrame {
 
         try {
 
-            BufferedImage img = ImageIO.read(getClass().getResource("/arquivos_midia/Cont.png")); //Carrega a imagem
+            BufferedImage img = ImageIO.read(getClass().getResource("/imagens/Cont.jpeg")); //Carrega a imagem
 
             int largura = img.getWidth()/3; //Divide a largura da imagem por 3
             int altura = img.getHeight()/3; //Divide a altura da imagem por 3   
